@@ -1,44 +1,89 @@
-header, img {
-    display: flexbox;
-    justify-content: left;
+header {
+    background-color: #ffffff; /* Cor de fundo do cabeçalho */
+    color: #023302; /* Cor do texto no cabeçalho */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Centralizar o conteúdo do cabeçalho */
+    height: 62px;
+    margin: 0 -10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 80px; 
+    width: 250px
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap:45px
+}
+
+.meu-botao {
+    background-color: rgb(4, 100, 12); /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto no botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 10px; /* Define o raio das bordas em pixels */
+    border:none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Transforma o cursor em uma mão quando paira sobre o botão */
+}
+
+.meu-botao:hover {
+    background-color: #bd5602; /* Cor de fundo do botão quando hover */
 }
 
 
-header, a {
+h1 {
+    display: flex;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display:flex;
-    justify-content:center;
-    color: antiquewhite;
-    background-color:#ffffff;
-    text-decoration: none;
-    color: rgb(1, 43, 14);
-}
-
-main, h1 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 94, 0);
+    color: rgb(230, 93, 2);
     font-size: 35px;
-    justify-content:flex-end;
+    justify-content:center;
     margin: 0 200px;
 }
 
-main, h2, p, ol {
-    font-family: Arial, Helvetica, sans-serif;
+main, p, ol {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(1, 68, 12);
-    font-size: 14px;
-    margin: 0 15px;
+    font-size: 18px;
+    margin: 0 40px;
 }
 
-main, img{
+div {
+    display: flex;
     justify-content: center;
+    gap: 30px;
+}
+
+img {
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
 }
 
 body {
-    background:#c2f5dc;
+    background-color: rgb(183, 202, 255);
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    gap:45px
 }
 
 footer {
-    display:flex;
-    color: antiquewhite;
-    background-color:#137dc5;
+    background-color: #ffffff; /* Cor de fundo do cabeçalho */
+    color: #023302; /* Cor do texto no cabeçalho */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px; /* Espaçamento interno do cabeçalho */
+    text-align:justify; /* Centralizar o conteúdo do cabeçalho */
+    height:30px;
+    margin: 0 -10px;
+
+    display: flex;
+    align-items: center;
 }
